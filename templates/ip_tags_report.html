@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>IP Tags Report</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Adres IP</th>
+            <th>Pasujące tagi</th>
+        </tr>
+        <tr>
+            <td>{{ ip_address|e }}</td>
+            <td>
+            {% if tags %}
+                <table>
+                {% for tag in tags %}
+                    <tr><td>{{ tag|e }}</td></tr>
+                {% endfor %}
+                </table>
+            {% endif %}
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
