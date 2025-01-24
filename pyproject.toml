@@ -1,5 +1,5 @@
 [project]
-name = "ip-knowledge-base"
+name = "ip_knowledge_base"
 version = "0.1.0"
 description = ""
 authors = [
@@ -12,7 +12,8 @@ dependencies = [
     "python-dotenv (>=1.0.1,<2.0.0)",
     "pydantic-settings (>=2.7.1,<3.0.0)",
     "intervaltree (>=3.1.0,<4.0.0)",
-    "pytest (>=8.3.4,<9.0.0)"
+    "pytest (>=8.3.4,<9.0.0)",
+    "gunicorn (>=23.0.0,<24.0.0)"
 ]
 
 

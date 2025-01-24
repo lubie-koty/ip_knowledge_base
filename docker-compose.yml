@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: .
+      args:
+        NUM_WORKERS: ${NUM_WORKERS}
+        HOST: ${HOST}
+    image: ip_knowledge_base
+    env_file:
+      - .env
+    ports:
+      - ${PORT}:8000
+    volumes:
+      - .:/ip_knowledge_base:ro
+
