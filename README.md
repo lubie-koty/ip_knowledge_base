@@ -31,10 +31,10 @@ This is a Python application that utilizes an interval tree to efficiently manag
     ```
     and set its environmental variables accordingly:
 
-    KNOWLEDGE_BASE_FILENAME - file name of the JSON file inside of /data folder
-    NUM_WORKERS - number of Uvicorn workers to be used by the service
-    HOST - address the service will be served at
-    PORT - port the service will be available at
+    * KNOWLEDGE_BASE_FILENAME - file name of the JSON file inside of /data folder
+    * NUM_WORKERS - number of Uvicorn workers to be used by the service
+    * HOST - address the service will be served at
+    * PORT - port the service will be available at
 
 2.  **Running the service:**
 
